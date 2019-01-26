@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    "use strict";
+    /*
+        В прошлом домашнем задании вы реализовали корзину на базе массивов.
+        Какими объектами можно заменить их элементы?
+        Реализуйте такие объекты.
+        Перенести функционал подсчета корзины на объектно-ориентированную базу.
+     */
+
+    var cart = {
+        orderedItem: [{
+            productName: 'T-shirt',
+            quantity: 3,
+            price: 500,
+        },
+            {
+                productName: 'dress',
+                quantity: 2,
+                price: 2500,
+            },
+            {
+                productName: 'shoes',
+                quantity: 1,
+                price: 5000,
+            },
+            {
+                productName: 'bag',
+                quantity: 1,
+                price: 3500,
+            },
+            {
+                productName: 'socks',
+                quantity: 5,
+                price: 100,
+            }
+        ],
+
+        /**
+         * Функция считает стоимость корзины.
+         * @param  [{object}] Массив, состоящий из позиций корзины, объект {наименование товара, количество, цена}.
+         * @return (sumTotal){number} Вернет полную стоимость корзины.
+         */
+        countBasketPrice: function () {
+            var sumTotal = 0;
+            if (this.orderedItem.length > 0) {
+                for (var i = 0; i < this.orderedItem.length; i++) {
+                    sumTotal += this.orderedItem[i].quantity * this.orderedItem[i].price;
+                }
+                console.log('Заказано: ' + this.orderedItem.length + ' позиций товара.');
+                console.log('Общая сумма покупок: ' + sumTotal + ' руб.');
+            }
+        }
+        };
+
+    cart.countBasketPrice();
+</script>
+</body>
+</html>
+
+
