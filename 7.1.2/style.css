@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+.cartContainer {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-bottom: 1px gainsboro;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+  }
+
+
+
+.cart-row {
+  width: 900px;
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+  padding-top: 15px;
+  margin-left: 50px;
+}
+
+.sizeColumn {
+  width: 150px;
+  padding-bottom: 22px;
+  color: #222222;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+.cartImg {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 90px;
+}
+.closeCart {
+  margin-left: 45px;
+  width: 30px;
+  height: 30px;
+}
+
+.quantity {
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 60px;
+}
+
+.h2-cart {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.div {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.wrap {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.product {
+  width: 220px;
+  height: 400px;
+  border-bottom: 1px gainsboro;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  align-items: center;
+}
+
+
+.img {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 20px;
+
+}
+
+.p-product {
+  font-size: 17pt;
+  padding-left: 35px;
+
+}
+.button {
+  width: 150px;
+  height: 50px;
+  margin-left: 35px;
+  color: #222222;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.basket {
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.wrap-cart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.basket-button {
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+
+}
+
+.checkoutBtn {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 750px;
+  justify-content: right;
+}
+.continue {
+  justify-content: right;
+}
+.address {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-bottom: 1px gainsboro;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.addressItem {
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
